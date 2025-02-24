@@ -1,17 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>caleb</title>
+
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Keep text aligned to the left */
+}
+
+h1 { 
+    margin-top: 0;
+    text-align: center;
+}
+
+p { text-align: left;}
+h3 {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Center buttons in a row */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    margin-top: 20px;
+}
+
+/* About Me section */
+p {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
+
+    </style>
+
 </head>
 <body> 
+
     <h1>caleb</h1>
+
 <a href="home.html"><button>painting</button></a>
 <a href="photography.html"><button>photography</button></a>
 <a href="cv.html"><button>cv</button></a> 
 <a href="social.html"><button>social</button></a>
  <a href="aboutme.html"><button>about me</button></a> 
-<br><a href="home.html"><button>back</button></a>
-</br><br>
+ 
+<br></br>
+
+<p>
 <img src="paint/Handline.2024.jpg" alt="Handline" width="233" height="175"/>
 <a style="display: inline;"><b>Handline Fisherman</b>, acrylic on canvas, 45" 60",  2024</a> </h3>
 <br>
@@ -56,7 +140,7 @@
 <br>
 <img src="paint/Body Language .jpg" alt="body language" width="233" height="155.027559055118091"/>
 <a style="display: inline;"><b>Body Language</b>, Charcoal on Paper, 26" 40",  2022</a> </h3>
-
+</p>
 </body>
 
 </html>
