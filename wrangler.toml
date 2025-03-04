@@ -1,9 +1,11 @@
 name = "home"
-wrangler deploy = "home.html"
+type = "javascript"  
+
 [build]
-  command = "npm install"  
+  command = "npm install" 
+
+
+main = "./src/index.js"  
 
 [env.production]
-  name = "painting"
-
-main = "./src/index.js" 
+  name = "painting" 
