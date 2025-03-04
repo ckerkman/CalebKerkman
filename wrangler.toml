@@ -1,0 +1,10 @@
+name = "Home"
+type = HTML
+
+[build]
+  command = "npm install"  
+
+[env.production]
+  name = "painting"
+
+main = "./src/index.js" 
