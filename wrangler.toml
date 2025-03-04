@@ -1,11 +1,5 @@
-name = "home"
-type = "javascript"  
+name = "CTK"  
 
-[build]
-  command = "npm install" 
-
-
-main = "./src/index.js"  
-
-[env.production]
-  name = "painting" 
+[site]
+  bucket = "./assets"  
+  entry-point = "./src/index.js"
