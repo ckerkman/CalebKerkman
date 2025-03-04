@@ -1,5 +1,5 @@
 name = "ctk"  
-
+main = "src/index.js"
 [site]
   bucket = "./assets"  
-  entry-point = "./src/index.js"
+
