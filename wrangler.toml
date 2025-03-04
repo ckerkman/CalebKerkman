@@ -1,6 +1,0 @@
-compatibility_date = "2025-03-04"
-name = "calebkerkman"  
-main = "src/index.js"
-[site]
-  bucket = "./assets"  
-
