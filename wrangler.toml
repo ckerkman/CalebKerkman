@@ -1,4 +1,4 @@
-name = "CTK"  
+name = "ctk"  
 
 [site]
   bucket = "./assets"  
