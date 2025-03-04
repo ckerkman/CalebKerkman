@@ -1,5 +1,5 @@
 name = "Home"
-type = HTML
+type =html
 
 [build]
   command = "npm install"  
