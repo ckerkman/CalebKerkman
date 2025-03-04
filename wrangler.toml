@@ -1,4 +1,4 @@
-name = "ctk"  
+name = "calebkerkman"  
 main = "src/index.js"
 [site]
   bucket = "./assets"  
