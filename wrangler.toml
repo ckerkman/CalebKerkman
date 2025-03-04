@@ -1,5 +1,5 @@
 name = "home"
-
+wrangler deploy = "home.html"
 [build]
   command = "npm install"  
 
